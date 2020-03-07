@@ -1,0 +1,27 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#f09be7",
+    "activityBar.activeBorder": "#656f11",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#656f11",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#e96fdd",
+    "titleBar.inactiveBackground": "#e96fdd99",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveForeground": "#15202b99",
+    "statusBar.background": "#e96fdd",
+    "statusBarItem.hoverBackground": "#e243d3",
+    "statusBar.foreground": "#15202b"
+  },
+  "peacock.color": "#e96fdd",
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "editor.formatOnSave": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

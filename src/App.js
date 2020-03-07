@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+
+import Header from "src/components/Header";
+import Footer from "src/components/Footer";
 
 function App() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const scrollListener = event => {
+    console.log("scrollTop", event.target.scrollTop);
+
+    setScrollPosition(event.target.scrollTop);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" onScroll={scrollListener}>
+      <Header scrollPosition={scrollPosition} />
+      <div className="outer-wrapper">
+        <div className="wrapper">
+          <div className="slide">
+            <Footer />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,29 @@
+{
+  "processors": [
+    ["stylelint-processor-styled-components", {
+      "parserPlugins": [
+        "jsx",
+        "objectRestSpread",
+        ["decorators", { "decoratorsBeforeExport": true }],
+        "classProperties",
+        "exportExtensions",
+        "asyncGenerators",
+        "functionBind",
+        "functionSent",
+        "dynamicImport",
+        "optionalCatchBinding",
+        "optionalChaining",
+        "doExpressions",
+        "exportDefaultFrom"
+      ]
+    }]
+  ],
+  "rules": {
+    "order/properties-order":null,
+    "no-descending-specificity": null,
+    "selector-combinator-space-before": null,
+    "indentation": null,
+    "declaration-colon-newline-after": null
+  },
+  "syntax": "scss"
+}
