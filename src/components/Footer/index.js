@@ -1,17 +1,19 @@
 import React from "react";
-
-import imageToDisplay from "src/img/bg.svg";
-import land from "src/img/land.svg";
-
-import { StyledFooterWrp } from "./style";
+import GrassOnLand from "src/img/bg_with_Land.png";
 
 const Footer = () => {
   return (
-    <StyledFooterWrp>
-      <img src={imageToDisplay} alt="" className="grass"></img>
-      <img src={imageToDisplay} alt="" className="grass flip"></img>
-      <img src={land} alt="" className="land"></img>
-    </StyledFooterWrp>
+    <div
+      className="footer"
+      style={{
+        backgroundImage: `url(${GrassOnLand})`,
+        backgroundRepeat: "repeat-x",
+        width: "100%",
+        bottom: 0,
+        height: "170px",
+        position: "absolute"
+      }}
+    ></div>
   );
 };
 

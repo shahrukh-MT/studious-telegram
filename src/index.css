@@ -32,10 +32,12 @@ code {
 
 .wrapper {
   display: flex;
+  overflow: hidden;
   width: 400vw;
   flex-direction: row;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
+  background: linear-gradient(to bottom, #b7eaff 0%, #94dfff 100%);
 }
 
 .slide {
@@ -63,4 +65,44 @@ code {
 .footer img {
   height: 200px;
   width: auto;
+}
+
+.building {
+  border-radius: 20px 20px 0 0;
+  display: inline-block;
+}
+
+.l1 {
+  width: 130px;
+  background: #4195b9;
+}
+
+.l2 {
+  background: #7bbbd6;
+  width: 90px;
+}
+
+.l3 {
+  width: 60px;
+  background: #99d2e9;
+}
+
+.bldg-wrp {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.layer-1 {
+  justify-content: space-between;
+}
+
+.layer-2 {
+  justify-content: space-around;
+}
+
+.layer-3 {
+  justify-content: space-evenly;
 }

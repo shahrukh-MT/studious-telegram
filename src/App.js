@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import Header from "src/components/Header";
 import Footer from "src/components/Footer";
+import Buildings from "./components/Buildings";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -15,12 +15,13 @@ function App() {
 
   return (
     <div className="App" onScroll={scrollListener}>
-      <Header scrollPosition={scrollPosition} />
       <div className="outer-wrapper">
         <div className="wrapper">
+          <Buildings style={{ position: "absolute", bottom: 0 }} scrollPosition={scrollPosition} />
           <div className="slide">
-            <Footer />
+            <h1>The work is in progess. Pls come back soon again</h1>
           </div>
+          <Footer />
         </div>
       </div>
     </div>

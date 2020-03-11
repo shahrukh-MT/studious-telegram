@@ -7,6 +7,6 @@ export const StyledHeaderWrp = styled.div`
 
   .clouds {
     width: 200vw;
-    margin: -200px -10px;
+    /* margin-top: -200px; */
   }
 `;

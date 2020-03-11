@@ -6,7 +6,7 @@ import { StyledHeaderWrp } from "./style";
 
 const Header = ({ scrollPosition }) => {
   return (
-    <StyledHeaderWrp left={`-${scrollPosition / 4}px`}>
+    <StyledHeaderWrp left={`-${Math.floor(scrollPosition / 10)}px`}>
       <img src={background_cloud} alt="" className="clouds"></img>
     </StyledHeaderWrp>
   );

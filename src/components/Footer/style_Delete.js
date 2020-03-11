@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const StyledFooterWrp = styled.div`
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
+  width: 100%;
 
   .grass {
-    bottom: -15px;
-    width: 200vw;
-    height: 150px;
-    object-fit: cover;
+    width: 100%;
+    bottom: -10px;
+    /* object-fit: cover; */
     position: relative;
   }
 
@@ -17,10 +17,8 @@ export const StyledFooterWrp = styled.div`
   }
 
   .land {
-    bottom: -5px;
+    /* left: -20px; */
+    width: 100%;
     position: relative;
-
-    width: 400vw;
-    height: auto;
   }
 `;
