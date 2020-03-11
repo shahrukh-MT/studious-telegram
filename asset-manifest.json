@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/studious-telegram/static/css/main.861fc9ef.chunk.css",
+    "main.js": "/studious-telegram/static/js/main.e2c99bf0.chunk.js",
+    "main.js.map": "/studious-telegram/static/js/main.e2c99bf0.chunk.js.map",
+    "runtime-main.js": "/studious-telegram/static/js/runtime-main.8a470c77.js",
+    "runtime-main.js.map": "/studious-telegram/static/js/runtime-main.8a470c77.js.map",
+    "static/js/2.80f7d978.chunk.js": "/studious-telegram/static/js/2.80f7d978.chunk.js",
+    "static/js/2.80f7d978.chunk.js.map": "/studious-telegram/static/js/2.80f7d978.chunk.js.map",
+    "index.html": "/studious-telegram/index.html",
+    "precache-manifest.e5bd1eab4f522c769809a92829e5a084.js": "/studious-telegram/precache-manifest.e5bd1eab4f522c769809a92829e5a084.js",
+    "service-worker.js": "/studious-telegram/service-worker.js",
+    "static/css/main.861fc9ef.chunk.css.map": "/studious-telegram/static/css/main.861fc9ef.chunk.css.map",
+    "static/js/2.80f7d978.chunk.js.LICENSE.txt": "/studious-telegram/static/js/2.80f7d978.chunk.js.LICENSE.txt",
+    "static/media/bg_with_Land.png": "/studious-telegram/static/media/bg_with_Land.76805bc8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a470c77.js",
+    "static/js/2.80f7d978.chunk.js",
+    "static/css/main.861fc9ef.chunk.css",
+    "static/js/main.e2c99bf0.chunk.js"
+  ]
+}
